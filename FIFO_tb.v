@@ -50,7 +50,7 @@ module tb_FIFO;
         readEN = 0;                           
         //FIFO is empty now.
         // Finish simulation
-        #20 $stop;
+        #20 $finish;
     end
 
 endmodule
